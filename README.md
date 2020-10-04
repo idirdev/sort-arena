@@ -1,5 +1,7 @@
 # Sort Arena
 
+> Lab project — sorting algorithm visualization and performance comparison.
+
 Sorting algorithm benchmark and comparison tool. Measure execution time, comparisons, swaps, and memory usage across 8 sorting algorithms with multiple array distributions.
 
 ## Features
