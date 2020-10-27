@@ -72,3 +72,33 @@ Fastest: Quick Sort (0.891ms, 82,144 comparisons, 19,220 swaps)
 - TypeScript
 - Node.js
 - No external dependencies
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+`sort-arena` est un outil de benchmark et de comparaison d'algorithmes de tri en ligne de commande. Il mesure le temps d'exécution, le nombre de comparaisons, d'échanges et l'utilisation mémoire pour 8 algorithmes de tri sur 5 types de distributions de tableaux, avec vérification automatique de la correction.
+
+### Installation
+```bash
+npm install
+npm run bench
+```
+
+### Utilisation
+```bash
+# Benchmark de tous les algorithmes avec une taille personnalisée
+npx tsx src/index.ts --all 10000
+
+# Comparer deux algorithmes
+npx tsx src/index.ts --compare "Quick Sort" "Tim Sort"
+
+# Benchmark complet (tous types de tableaux)
+npx tsx src/index.ts --full 5000
+
+# Lister les algorithmes disponibles
+npx tsx src/index.ts --list
+```
+
+Consultez la documentation anglaise ci-dessus pour les détails des algorithmes, les complexités et les exemples de sortie.
